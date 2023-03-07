@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T08:40:01.339Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="f94_OUfoiXHf3VHoMC20" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T09:01:16.307Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Lu5vDxxVwDlLpJ08gT-e" version="20.3.0" type="github">
   <diagram id="xMgLzWcYT46ZylNhg_q3" name="第 1 页">
     <mxGraphModel dx="1368" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -61,11 +61,14 @@
         <mxCell id="8Z7RNGvxaRTig2bGWKWf-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Z7RNGvxaRTig2bGWKWf-7" target="8Z7RNGvxaRTig2bGWKWf-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;dashed=1;" edge="1" parent="1" source="8Z7RNGvxaRTig2bGWKWf-7" target="8Z7RNGvxaRTig2bGWKWf-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8Z7RNGvxaRTig2bGWKWf-7" value="请求粉版mid等信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8Z7RNGvxaRTig2bGWKWf-8" value="请求用户承接信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="630" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="650" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8Z7RNGvxaRTig2bGWKWf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Z7RNGvxaRTig2bGWKWf-10" target="8Z7RNGvxaRTig2bGWKWf-7">
           <mxGeometry relative="1" as="geometry" />
@@ -98,10 +101,13 @@
           <mxGeometry x="370" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8Z7RNGvxaRTig2bGWKWf-22" value="&lt;font color=&quot;#ff0000&quot;&gt;成功率87%，损失13%&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="620" y="170" width="160" height="60" as="geometry" />
+          <mxGeometry x="610" y="170" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8Z7RNGvxaRTig2bGWKWf-26" value="必剪数据：首次获得oaid成功率88%&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;500ms内获得成功率未统计，不足以参考&lt;br&gt;&lt;br&gt;粉版数据：首次获得oaid成功率86%&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;P90耗时 650ms，平均耗时380ms" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-26" value="必剪数据：首次获得oaid成功率88%&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;必剪数据校正以及优化&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;500ms内获得成功率未统计，不足以参考&lt;br&gt;&lt;br&gt;粉版数据：首次获得oaid成功率86%&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;P90耗时 650ms，平均耗时380ms" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="610" y="350" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-32" value="IDM：成功率77%，符合对IDM预期&lt;br&gt;接口成功率：&lt;font color=&quot;#ff0000&quot;&gt;92.8%，是否可以提升&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="610" y="535" width="320" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
