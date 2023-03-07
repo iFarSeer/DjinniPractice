@@ -1,1 +1,109 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T08:03:48.812Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.3.0" etag="PWqSDotyR2zebsGOB29-" type="github"><diagram id="xMgLzWcYT46ZylNhg_q3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-07T08:40:01.339Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="f94_OUfoiXHf3VHoMC20" version="20.3.0" type="github">
+  <diagram id="xMgLzWcYT46ZylNhg_q3" name="第 1 页">
+    <mxGraphModel dx="1368" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8Z7RNGvxaRTig2bGWKWf-1" target="8Z7RNGvxaRTig2bGWKWf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8Z7RNGvxaRTig2bGWKWf-1" target="8Z7RNGvxaRTig2bGWKWf-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Z7RNGvxaRTig2bGWKWf-2" target="8Z7RNGvxaRTig2bGWKWf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="8Z7RNGvxaRTig2bGWKWf-2" target="8Z7RNGvxaRTig2bGWKWf-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-2" value="fawkes判断" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="370" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8Z7RNGvxaRTig2bGWKWf-3" target="8Z7RNGvxaRTig2bGWKWf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-3" value="OAIDSDK 获取oaid&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Z7RNGvxaRTig2bGWKWf-6" target="8Z7RNGvxaRTig2bGWKWf-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="210" />
+              <mxPoint x="50" y="500" />
+              <mxPoint x="260" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-20" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Z7RNGvxaRTig2bGWKWf-9">
+          <mxGeometry x="-0.7462" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-29" value="确保一定成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Z7RNGvxaRTig2bGWKWf-9">
+          <mxGeometry x="-0.1846" y="1" relative="1" as="geometry">
+            <mxPoint y="48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Z7RNGvxaRTig2bGWKWf-6" target="8Z7RNGvxaRTig2bGWKWf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-19" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Z7RNGvxaRTig2bGWKWf-11">
+          <mxGeometry x="-0.2429" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-6" value="本地OAID为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="170" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Z7RNGvxaRTig2bGWKWf-7" target="8Z7RNGvxaRTig2bGWKWf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-7" value="请求粉版mid等信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-8" value="请求用户承接信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Z7RNGvxaRTig2bGWKWf-10" target="8Z7RNGvxaRTig2bGWKWf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-28" value="确定无OAID，后续流程失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Z7RNGvxaRTig2bGWKWf-12">
+          <mxGeometry x="-0.25" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-10" value="延迟500ms" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8Z7RNGvxaRTig2bGWKWf-16" target="8Z7RNGvxaRTig2bGWKWf-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="500" />
+              <mxPoint x="260" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-24" value="在500ms内成功获得" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8Z7RNGvxaRTig2bGWKWf-18">
+          <mxGeometry x="-0.3333" y="-1" relative="1" as="geometry">
+            <mxPoint x="23" y="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="8Z7RNGvxaRTig2bGWKWf-16" target="8Z7RNGvxaRTig2bGWKWf-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-16" value="成功获取获取oaid&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="370" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-22" value="&lt;font color=&quot;#ff0000&quot;&gt;成功率87%，损失13%&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="620" y="170" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8Z7RNGvxaRTig2bGWKWf-26" value="必剪数据：首次获得oaid成功率88%&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;500ms内获得成功率未统计，不足以参考&lt;br&gt;&lt;br&gt;粉版数据：首次获得oaid成功率86%&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;P90耗时 650ms，平均耗时380ms" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="610" y="350" width="380" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
